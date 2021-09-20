@@ -1,0 +1,16 @@
+[build]
+	publish = "dist"
+	
+[dev]
+	publish = "dist"
+	port= 8080
+
+[functions]
+	directory = "functions"
+	node_bundler = "esbuild" 
+	included_files = ["./src/data.json"]
+
+[[redirects]]
+	from = "/test"
+	to = "/.netlify/functions/test"
+	status = 200	

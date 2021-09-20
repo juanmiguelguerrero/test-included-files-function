@@ -1,0 +1,14 @@
+{
+  "name": "test-included-files",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "netlify-cli": "^6.9.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx netlify dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
