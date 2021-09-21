@@ -1,4 +1,4 @@
-const data = require('./src/data.json');
+const data = require('../src/data.json');
 
 exports.handler = async (event, context) => {
 	
