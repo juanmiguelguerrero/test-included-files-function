@@ -9,7 +9,7 @@ exports.handler = async (event, context) => {
 	// event.body - The request body in JSON format
 	// event.isBase64Encoded - A boolean flag to indicate if the applicable request payload is Base64-encode
 
-	console.log('Test function called...')
+	console.log(data)
 
 	return {
 
